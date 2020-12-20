@@ -1,0 +1,17 @@
+.container{
+    width: 600px;
+    height: 500px;
+    background-color: gainsboro;
+}
+.container h1{
+    color: red;
+}
+.container h2{
+    color: blue;
+}
+.container h3{
+    color: red;
+}
+.container h4{
+    color: blue;
+}
