@@ -1,9 +1,10 @@
-(function() {
-    ('.container img:gt(0)').hide();
+$(function() {
+    $('.banner img:gt(0)').hide();
     setInterval(function(){
-        ('.neoslideshow :first-child').fadeOut()
-            .next('img').fadeIn()
-            .end().appendTo('.neoslideshow');},
-        4000);
-});
+        $('.banner :first-child').fadeOut() //FadeOut là ảnh đang hiện
+            .next('img').fadeIn() //fadeIn ảnh tiếp theo
+            .end().appendTo('.banner'); // chuyển vị trí ảnh xuống cuối
+    }, 3000);
+})
+
 

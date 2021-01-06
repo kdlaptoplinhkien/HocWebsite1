@@ -1,0 +1,134 @@
+
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+.header{
+    background: black;
+    height: 30px;
+}
+
+.header ul li{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: white;
+    color: white;
+    line-height: 30px;
+}
+
+.movic{
+    height: 120px;
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 25px;
+}
+.movic ul li{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    list-style: none;
+    line-height: 120px;
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+
+}
+
+
+.menu-top{
+    height: 60px;
+    color: black;
+}
+
+.menu-top ul li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.menu-top ul li a{
+    color: black;
+    float: left;
+    padding: 20px;
+}
+
+.menu-top .menu-top-right ul li{
+    margin-left: 100px;
+}
+
+
+.banner{
+    width: 100%;
+    background: #cccccc;
+    height: 705px;
+    max-height: 705px;
+    display: block;
+
+
+}
+.fashion{
+    width: 100%;
+    border: #3e8f3e;
+    height: 1100px;
+
+}
+.fashion ul li{
+    list-style: none;
+}
+.fashion h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.fashion h4{
+    font-size: 13px;
+    text-align: center;
+    color: #cccccc;
+}
+
+
+
+
+
+
+.brand{
+    background: yellow;
+    height: 220px;
+}
+.ourproduct{
+    background: deeppink;
+    height: 200px;
+}
+.newarivals{
+    background: #cccccc;
+    height: 1300px;
+}
+
+.instagram{
+    background: #2aabd2;
+    height: 350px;
+}
+.latestnews {
+    background: #2b542c;
+    height: 500px;
+
+}
+.freeshiping{
+    background: #265a88;
+    height: 200px;
+}
+
+.aboutus {
+    background: #2aabd2;
+    height: 450px;
+}
+.footer{
+    background: #cccccc;
+    height: 200px;
+}

@@ -1,52 +1,13 @@
-div{
+.container{
     width: 100%;
     height: 700px;
     margin: 0px auto;
-    border: 2px solid #cccccc;
     position: relative;
 }
-img {
+.container img {
     width: 100%;
     height: 700px;
 }
-.Next {
-    text-transform: uppercase;
-    position: absolute;
-    top: 320px;
-    right: 40px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
 
-}
-.Prev{
-    text-transform: uppercase;
-    position: absolute;
-    top: 320px;
-    left: 40px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-
-}
-ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    position: absolute;
-    left: 50%;
-    bottom: 10px;
-}
-ul li{
-    display: inline;
-    background: white;
-    padding: 6px;
-    border-radius: 3px;
-    font-weight: bold;
-}
-ul li.active {
-    background: red;
-    color: yellow;
-}
 
 
